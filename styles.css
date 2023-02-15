@@ -31,6 +31,14 @@ h2 {
 header {
   display: flex;
   justify-content: space-between;
+  padding: 0 24px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 375px;
 }
 
 .icon {
@@ -50,6 +58,7 @@ header {
   background-image: url(images/background.png);
   background-position: 0px 50px;
   background-repeat: no-repeat;
+  padding: 0 24px;
 }
 
 .headline__list {
