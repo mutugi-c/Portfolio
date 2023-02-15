@@ -1,4 +1,12 @@
+:root {
+  --color-blue: #7f8cff;
+  --color-dark-blue: #172b4d;
+  --color-icons: #505f79;
+  --color-body: #344563;
+}
+
 body {
+  color: var(--color-body);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -6,11 +14,13 @@ body {
 }
 
 h1 {
+  color: var(--color-dark-blue);
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
 h2 {
+  color: var(--color-blue);
   font-weight: 500;
 }
