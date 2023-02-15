@@ -1,5 +1,6 @@
 :root {
-  --color-blue: #7f8cff;
+  --color-light-blue: #7f8cff;
+  --color-blue: #6070ff;
   --color-dark-blue: #172b4d;
   --color-icons: #505f79;
   --color-body: #344563;
@@ -21,6 +22,19 @@ h1 {
 }
 
 h2 {
-  color: var(--color-blue);
+  color: var(--color-light-blue);
   font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page--logo {
+  height: 25px;
+}
+
+.page--menu {
+  fill: var(--color-light-blue);
 }
