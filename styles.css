@@ -33,6 +33,11 @@ header {
   justify-content: space-between;
 }
 
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
 .page--logo {
   height: 25px;
 }
@@ -54,9 +59,9 @@ header {
 }
 
 .headline__list_item {
-  width: 4rem;
+  width: 3rem;
 }
 
 .headline__list_item_icon {
-  fill: var(--color-blue);
+  fill: var(--color-icons);
 }
