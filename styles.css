@@ -19,6 +19,8 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin: 0;
+  padding-top: 150px;
 }
 
 h2 {
@@ -37,4 +39,10 @@ header {
 
 .page--menu {
   fill: var(--color-light-blue);
+}
+
+.headline {
+  background-image: url(images/background.png);
+  background-position: 0px 50px;
+  background-repeat: no-repeat;
 }
