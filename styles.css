@@ -89,6 +89,10 @@ a {
 }
 
 /* Buttons */
+.btn {
+  cursor: pointer;
+}
+
 .btn--primary {
   background: #ebebff;
   border-radius: 8px;
