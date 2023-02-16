@@ -1,0 +1,73 @@
+:root {
+  --color-light-blue: #7f8cff;
+  --color-blue: #6070ff;
+  --color-dark-blue: #172b4d;
+  --color-icons: #505f79;
+  --color-body: #344563;
+}
+
+body {
+  color: var(--color-body);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  color: var(--color-dark-blue);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  margin: 0;
+  padding-top: 9.375rem;
+}
+
+h2 {
+  color: var(--color-light-blue);
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 375px;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.page--logo {
+  width: 60%;
+}
+
+.headline {
+  background-image: url(images/background.png);
+  background-position: 0 50px;
+  background-repeat: no-repeat;
+  padding: 0 1.5rem;
+}
+
+.headline__list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.headline__list_item {
+  width: 3rem;
+}
+
+.headline__list_item_icon {
+  fill: var(--color-icons);
+}
