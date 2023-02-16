@@ -10,17 +10,17 @@ body {
   color: var(--color-body);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 h1 {
   color: var(--color-dark-blue);
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   margin: 0;
-  padding-top: 150px;
+  padding-top: 9.375rem;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 a {
@@ -43,8 +43,8 @@ a {
 }
 
 .icon {
-  height: 24px;
-  width: 24px;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .page--logo {
@@ -55,7 +55,7 @@ a {
   background-image: url(images/background.png);
   background-position: 0 50px;
   background-repeat: no-repeat;
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 .headline__list {
