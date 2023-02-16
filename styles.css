@@ -31,6 +31,7 @@ h1 {
 h2 {
   font-size: 2rem;
   line-height: 2.75rem;
+  margin: 0.8rem 0;
 }
 
 h3 {
@@ -107,6 +108,14 @@ a {
 }
 
 /* Card */
+.card {
+  padding: 1rem;
+}
+
+.card--image {
+  width: 100%;
+}
+
 .card--body-details {
   display: flex;
 }
@@ -131,4 +140,8 @@ a {
 
 .card--body-text {
   margin-top: 0;
+}
+
+.card--languages {
+  margin-bottom: 2rem;
 }
