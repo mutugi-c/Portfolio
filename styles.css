@@ -15,18 +15,32 @@ body {
   line-height: 1.5rem;
 }
 
-h1 {
+h1,
+h2 {
   color: var(--color-dark-blue);
   font-weight: 700;
+}
+
+h1 {
   font-size: 2.5rem;
   line-height: 3.25rem;
   margin: 0;
   padding-top: 9.375rem;
 }
 
+h2 {
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
 h3 {
   color: var(--color-light-blue);
   font-weight: 500;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 0.813rem;
 }
 
 nav {
@@ -90,4 +104,31 @@ a {
   color: var(--color-primary);
   font-weight: 500;
   padding: 8px 16px;
+}
+
+/* Card */
+.card--body-details {
+  display: flex;
+}
+
+.card--body-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.card--body-role {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 0.813rem;
+  margin-right: 2rem;
+}
+
+.card--body-year {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 0.813rem;
+}
+
+.card--body-text {
+  margin-top: 0;
 }
