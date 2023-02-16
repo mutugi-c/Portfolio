@@ -109,11 +109,19 @@ a {
 
 /* Card */
 .card {
-  padding: 1rem;
+  background: #ffff;
+  border-radius: 1rem;
+  height: 590px;
+  width: 327px;
 }
 
 .card--image {
-  width: 100%;
+  padding: 1rem;
+  width: 90%;
+}
+
+.card--body {
+  padding: 0 1rem;
 }
 
 .card--body-details {
@@ -144,10 +152,20 @@ a {
 
 .card--languages {
   margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 
-/* Works section */
+.card--project-btn {
+  padding: 0 1rem;
+}
+
 .works {
+  background: #e5e5e5;
+  height: 350vh;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
 }
