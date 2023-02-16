@@ -48,11 +48,7 @@ a {
 }
 
 .page--logo {
-  height: 25px;
-}
-
-.page--menu {
-  fill: var(--color-light-blue);
+  width: 60%;
 }
 
 .headline {
