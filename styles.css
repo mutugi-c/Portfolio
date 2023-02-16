@@ -145,3 +145,9 @@ a {
 .card--languages {
   margin-bottom: 2rem;
 }
+
+/* Works section */
+.works {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
