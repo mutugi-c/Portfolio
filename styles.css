@@ -28,7 +28,7 @@ h2 {
   font-weight: 500;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   padding: 0 24px;
