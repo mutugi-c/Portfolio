@@ -2,6 +2,7 @@
   --color-light-blue: #7f8cff;
   --color-blue: #6070ff;
   --color-dark-blue: #172b4d;
+  --color-primary: #396df2;
   --color-icons: #505f79;
   --color-body: #344563;
 }
@@ -70,4 +71,23 @@ a {
 
 .headline__list_item_icon {
   fill: var(--color-icons);
+}
+
+/* Buttons */
+.btn--primary {
+  background: #ebebff;
+  border-radius: 8px;
+  border-style: none;
+  color: var(--color-blue);
+  font-weight: 500;
+  padding: 4px 12px;
+}
+
+.btn--secondary {
+  background-color: #ffff;
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  color: var(--color-primary);
+  font-weight: 500;
+  padding: 8px 16px;
 }
