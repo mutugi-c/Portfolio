@@ -111,7 +111,6 @@ a {
 .card {
   background: #ffff;
   border-radius: 1rem;
-  height: 590px;
   width: 327px;
 }
 
@@ -156,19 +155,21 @@ a {
 }
 
 .card--project-btn {
+  margin-bottom: 3rem;
   padding: 0 1rem;
 }
 
 /* Works */
 .works {
-  background: #e5e5e5;
-  height: 350vh;
-  display: grid;
-  gap: 2rem;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 5rem;
+  background: #e5e5e5;
+  display: grid;
+  flex-direction: column;
+  gap: 5rem;
+  grid-template-rows: 500px, 4;
+  justify-content: center;
+  padding: 5rem 0;
+  width: 100%;
 }
 
 /* About myself */
