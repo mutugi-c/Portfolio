@@ -6,6 +6,7 @@
   --color-icons: #505f79;
   --color-body: #344563;
   --color-white: #ffffff;
+  --color-background: #e5e5e5;
 }
 
 body {
@@ -46,6 +47,7 @@ h4 {
 }
 
 nav {
+  background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
   padding: 0 1.5rem;
@@ -57,6 +59,7 @@ a {
 
 .container {
   max-width: 375px;
+  background-color: var(--color-background);
 }
 
 .icon {
@@ -70,6 +73,7 @@ a {
 
 .headline {
   background-image: url(images/background.png);
+  background-color: var(--color-white);
   background-position: 0 50px;
   background-repeat: no-repeat;
   padding: 0 1.5rem;
@@ -173,7 +177,7 @@ a {
 /* Works */
 .works {
   align-items: center;
-  background: #e5e5e5;
+  background: var(--color-background);
   display: grid;
   flex-direction: column;
   gap: 5rem;
@@ -184,9 +188,16 @@ a {
 }
 
 /* About myself */
+.about--myself-wrapper {
+  background-color: var(--color-background);
+}
+
 .about--myself {
+  background-color: var(--color-white);
+  border-top-right-radius: 36px;
   margin-top: 5rem;
   padding: 0 1rem;
+  padding-top: 5rem;
 }
 
 .about--myself-details {
