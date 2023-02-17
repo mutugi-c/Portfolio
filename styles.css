@@ -159,6 +159,7 @@ a {
   padding: 0 1rem;
 }
 
+/* Works */
 .works {
   background: #e5e5e5;
   height: 350vh;
@@ -168,4 +169,52 @@ a {
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
+}
+
+/* About myself */
+.about--myself {
+  margin-top: 5rem;
+  padding: 0 1rem;
+}
+
+.about--myself-details {
+  margin-top: 4rem;
+}
+
+.language__list {
+  list-style-type: none;
+}
+
+.list__heading {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list__heading-item {
+  color: #000000;
+  display: flex;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.item-border {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.language__list-item {
+  align-items: center;
+  background: #f7f7f9;
+  display: flex;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+}
+
+.language__list-img {
+  margin-right: 1rem;
+}
+
+.list__heading-pointer {
+  height: 1.2rem;
+  margin-left: 10rem;
 }
