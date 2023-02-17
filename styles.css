@@ -51,6 +51,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 1.5rem;
+  padding-top: 1rem;
 }
 
 a {
@@ -76,7 +77,9 @@ a {
   background-color: var(--color-white);
   background-position: 0 50px;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 5rem;
   padding: 0 1.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .headline__list {
@@ -194,7 +197,7 @@ a {
 
 .about--myself {
   background-color: var(--color-white);
-  border-top-right-radius: 36px;
+  border-top-right-radius: 5rem;
   margin-top: 5rem;
   padding: 0 1rem;
   padding-top: 5rem;
