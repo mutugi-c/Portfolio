@@ -217,6 +217,7 @@ a {
 }
 
 .list__heading-item {
+  align-items: center;
   color: #000;
   display: flex;
   justify-content: space-between;
@@ -240,6 +241,12 @@ a {
 
 .language__list-img {
   margin-right: 1rem;
+}
+
+.list__down-pointer {
+  width: 1.2rem;
+  height: 0.8rem;
+  padding-right: 4rem;
 }
 
 .list__heading-pointer {
