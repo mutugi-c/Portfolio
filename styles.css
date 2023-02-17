@@ -196,6 +196,7 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 1.25rem;
+  font-weight: 500;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
