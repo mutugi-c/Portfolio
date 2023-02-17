@@ -192,7 +192,7 @@ a {
 }
 
 .list__heading-item {
-  color: #000000;
+  color: #000;
   display: flex;
   justify-content: space-between;
   font-size: 1.25rem;
