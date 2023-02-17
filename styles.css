@@ -194,6 +194,7 @@ a {
 .list__heading-item {
   color: #000000;
   display: flex;
+  justify-content: space-between;
   font-size: 1.25rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
@@ -217,5 +218,5 @@ a {
 
 .list__heading-pointer {
   height: 1.2rem;
-  margin-left: 10rem;
+  padding-right: 4rem;
 }
