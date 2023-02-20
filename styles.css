@@ -263,5 +263,23 @@ a {
 .contacts {
   background: var(--color-blue);
   border-top-left-radius: 5rem;
-  height: 30vh;
+  height: 100vh;
+}
+
+.contacts_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 6.25rem 1.5rem 2rem 1.5rem;
+}
+
+.contacts_heading {
+  /* align-self: center; */
+  color: var(--color-white);
+}
+
+.contacts_text {
+  color: #ebebff;
+  text-align: center;
 }
