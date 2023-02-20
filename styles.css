@@ -192,7 +192,8 @@ a {
 
 /* About myself */
 .about--myself-wrapper {
-  background-color: var(--color-background);
+  background-color: var(--color-white);
+  padding-bottom: 5rem;
 }
 
 .about--myself {
@@ -252,4 +253,15 @@ a {
 .list__heading-pointer {
   height: 1.2rem;
   padding-right: 4rem;
+}
+
+/* Contacts section */
+.contact_container {
+  background: var(--color-white);
+}
+
+.contacts {
+  background: var(--color-blue);
+  border-top-left-radius: 5rem;
+  height: 30vh;
 }
