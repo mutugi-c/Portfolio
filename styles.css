@@ -293,9 +293,9 @@ form {
 }
 
 .form-input {
-  margin-bottom: 1rem;
   border: 1px solid #cfd8dc;
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
   padding: 1rem;
 }
 
@@ -305,15 +305,20 @@ form {
   line-height: 1.25rem;
 }
 
+.form-input:focus {
+  border: 1px solid #cfd8dc;
+  outline: 0;
+}
+
 .form-text {
   height: 10.625rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 1rem;
 }
 
 .form-text::placeholder {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 .form-button {

@@ -318,25 +318,29 @@
               love to help with it
             </p>
           </div>
-          <form>
+          <form action="https://formspree.io/f/{form_id}" method="post">
             <input
               class="form-input"
               type="text"
               placeholder="Roberto Firmino"
+              maxlength="30"
+              required
             />
             <input
               class="form-input"
               type="email"
               placeholder="bobbyfirmino@gmail.com"
+              required
             />
             <textarea
               class="form-input form-text"
               name="message-area"
               maxlength="500"
-              placeholder="write your message here"
-              required
+              placeholder="Write your message here"
             ></textarea>
-            <a class="btn--secondary form-button" href="#">Get in touch</a>
+            <button class="btn--secondary form-button" type="submit">
+              Get in touch
+            </button>
           </form>
         </div>
       </section>
