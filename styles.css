@@ -312,7 +312,7 @@ form {
 
 .form-text {
   height: 10.625rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
