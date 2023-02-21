@@ -264,18 +264,20 @@ a {
   background: var(--color-blue);
   border-top-left-radius: 5rem;
   height: 48.625rem;
+  background-image: url("images/contact-background.png");
+  background-size: 60%;
+  background-position: 150px 30px;
+  background-repeat: no-repeat;
 }
 
 .contacts_head {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 6.25rem 1.5rem 2rem 1.5rem;
 }
 
 .contacts_heading {
-  /* align-self: center; */
   color: var(--color-white);
 }
 
@@ -305,6 +307,13 @@ form {
 
 .form-text {
   height: 10.625rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.form-text::placeholder {
+  color: #B3BAC5;
 }
 
 .form-button {
