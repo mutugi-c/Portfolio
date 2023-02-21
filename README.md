@@ -24,9 +24,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**Portfolio** is a project to share my skills and capabilities as a software developer.
+**My Portfolio** is a project to share my skills and capabilities as a software developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -93,9 +91,7 @@ Example: To build for production with parcel, use the folowing commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Chris Mutugi**
 
 - GitHub: [@mutugi-c](https://github.com/mutugi-c)
 - Twitter: [@chris\_\_mutugi](https://twitter.com/chris__mutugi)
@@ -134,7 +130,7 @@ If you like this project, give a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners Santiago Munoz and Richard Burneo for their contribution to this project.
+I would like to thank my coding partner Harsh Yadav for his contribution to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
