@@ -263,7 +263,7 @@ a {
 .contacts {
   background: var(--color-blue);
   border-top-left-radius: 5rem;
-  height: 100vh;
+  height: 48.625rem;
 }
 
 .contacts_head {
@@ -281,5 +281,34 @@ a {
 
 .contacts_text {
   color: #ebebff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.form-input::placeholder {
+  color: #172b4d;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
+.form-text {
+  height: 10.625rem;
+}
+
+.form-button {
+  padding: 0.7rem;
+  width: 6.75rem;
   text-align: center;
 }
