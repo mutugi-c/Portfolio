@@ -91,7 +91,7 @@ Example: To build for production with parcel, use the folowing commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Chris Mutugi**
 
 - GitHub: [@mutugi-c](https://github.com/mutugi-c)
 - Twitter: [@chris\_\_mutugi](https://twitter.com/chris__mutugi)
@@ -130,7 +130,7 @@ If you like this project, give a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners Santiago Munoz and Richard Burneo for their contribution to this project.
+I would like to thank my coding partner Harsh Yadav for his contribution to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
