@@ -24,9 +24,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**Portfolio** is a project to share my skills and capabilities as a software developer.
+**My Portfolio** is a project to share my skills and capabilities as a software developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -92,8 +90,6 @@ Example: To build for production with parcel, use the folowing commands:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
