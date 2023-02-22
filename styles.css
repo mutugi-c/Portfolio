@@ -78,8 +78,8 @@ a {
   background-position: 0 50px;
   background-repeat: no-repeat;
   border-bottom-left-radius: 5rem;
+  height: 718px;
   padding: 0 1.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .headline__list {
