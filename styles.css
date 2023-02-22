@@ -328,3 +328,7 @@ form {
   width: 6.75rem;
   text-align: center;
 }
+
+.form-button:hover {
+  outline: 0.8px solid var(--color-white);
+}
