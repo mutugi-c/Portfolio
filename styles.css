@@ -260,7 +260,7 @@ nav {
   padding: 0 1rem;
 }
 
-/* Works */
+/* Works/Projects */
 .works {
   align-items: center;
   background: var(--color-background);
@@ -271,6 +271,24 @@ nav {
   justify-content: center;
   padding: 5rem 0;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin-top: 4rem;
+  }
+
+  h2 br {
+    display: none;
+  }
+  .card {
+    display: flex;
+    width: 1156px;
+  }
+
+  .card--project-btn {
+    margin: 3rem 0 0;
+  }
 }
 
 /* About myself */
