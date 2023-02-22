@@ -357,6 +357,43 @@ nav {
   padding-right: 4rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .about--myself-wrapper {
+    padding: 8.875rem 10.375rem;
+  }
+
+  .about--myself {
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+
+  .about--myself-socials {
+    margin-right: 4rem;
+  }
+
+  .headline__list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  }
+
+  .language__list {
+    display: flex;
+  }
+
+  .language__list-item {
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.75rem;
+    width: 7.625rem;
+  }
+
+  .language__list-img {
+    margin-bottom: 1rem;
+  }
+}
+
 /* Contacts section */
 .contact_container {
   background: var(--color-white);
