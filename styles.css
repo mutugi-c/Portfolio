@@ -78,13 +78,14 @@ a {
   background-position: 0 50px;
   background-repeat: no-repeat;
   border-bottom-left-radius: 5rem;
+  height: 718px;
   padding: 0 1.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .headline__list {
   display: flex;
   list-style: none;
+  margin: 2rem 0;
   padding-left: 0;
 }
 
@@ -242,11 +243,12 @@ a {
 
 .language__list-img {
   margin-right: 1rem;
+  padding-left: 1rem;
 }
 
 .list__down-pointer {
   width: 1.2rem;
-  height: 0.8rem;
+  height: 0.7rem;
   padding-right: 4rem;
 }
 
