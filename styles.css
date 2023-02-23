@@ -112,10 +112,20 @@ a {
 
   .headline {
     align-items: center;
-    background-image: url(images/desktop_header_bg.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: 250px 5px;
+    background-image: url(images/header_bg/Ellipse3.png),
+      url(images/header_bg/Rectangle4.png), url(images/header_bg/Rectangle7.png),
+      url(images/header_bg/Ellipse5.png), url(images/header_bg/Rectangle6.png),
+      url(images/header_bg/Ellipse11.png), url(images/header_bg/Ellipse12.png),
+      url(images/header_bg/Ellipse13.png), url(images/header_bg/Rectangle5.png),
+      url(images/header_bg/Ellipse4.png), url(images/header_bg/Ellipse6.png),
+      url(images/header_bg/Ellipse7.png), url(images/header_bg/Ellipse8.png),
+      url(images/header_bg/Ellipse14.png);
+    background-position: 99.4% 15.5%, 96% 4.5%, 55% 16%, 54.8% 18%, 2.4% 15.24%,
+      5.2% 20.86%, 17.63% 83.84%, 16.8% 87.08%, 50% 83.77%, 52.6% 80.4%,
+      81.53% 70.2%, 67% 16.6%, 26.3% 17.9%, 5.07% 55.79%;
+
+    background-size: 224px, 204px, 56px, 23px, 108.67px, 80.48px, 36.9px, 46px,
+      161.41px, 47px, 75px, 39px, 15px, 23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
