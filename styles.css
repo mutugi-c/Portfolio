@@ -469,3 +469,11 @@ form {
 .form-button:hover {
   outline: 0.8px solid var(--color-white);
 }
+
+@media screen and (min-width: 1024px) {
+  .contacts {
+    background-image: none;
+    height: 52.875rem;
+    width: 100%;
+  }
+}
