@@ -156,6 +156,10 @@ nav {
   padding-top: 1rem;
 }
 
+.nav-list {
+  display: none;
+}
+
 .icon {
   height: 1.5rem;
   width: 1.5rem;
