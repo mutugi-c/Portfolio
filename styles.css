@@ -120,12 +120,14 @@ a {
       url(images/header_bg/Ellipse4.png), url(images/header_bg/Ellipse6.png),
       url(images/header_bg/Ellipse7.png), url(images/header_bg/Ellipse8.png),
       url(images/header_bg/Ellipse14.png);
+
     background-position: 99.4% 15.5%, 96% 4.5%, 49% 16%, 49% 18%, 2.4% 15.24%,
       5.2% 20.86%, 17.63% 83.84%, 16.8% 87.08%, 50% 83.77%, 52.6% 80.4%,
       81.53% 70.2%, 67% 16.6%, 26.3% 17.9%, 5.07% 55.79%;
 
     background-size: 224px, 204px, 56px, 23px, 108.67px, 80.48px, 36.9px, 46px,
       161.41px, 47px, 75px, 39px, 15px, 23px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -531,8 +533,10 @@ form {
       url(images/contacts_bg/Rectangle_6.png),
       url(images/contacts_bg/Ellipse_11.png),
       url(images/contacts_bg/Ellipse_12.png);
+
     background-position: 85.9% 15.5%, 84.14% 9.34%, 78.4% 61.58%, 5.1% 40%,
       5% 44%, 23.4% 87.59%, 24.5% 90.15%, 32.64% 13.48%;
+
     background-size: 129px, 107.2px, 75px, 90px, 48px, 55px, 41px, 27px;
     height: 55rem;
     width: 100%;
