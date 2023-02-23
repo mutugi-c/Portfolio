@@ -103,8 +103,7 @@ Example: To build for production with parcel, use the folowing commands:
 
 > Future features that will be added to the project include:
 
-- **The main section showcasing projects**
-- **A footer with contact details**
+- **My portfolio's version for medium size screens**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
