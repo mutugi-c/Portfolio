@@ -366,6 +366,8 @@ nav {
   .about--myself {
     display: grid;
     grid-template-columns: 35% 65%;
+    margin: 0;
+    padding-top: 0;
   }
 
   .about--myself-socials {
