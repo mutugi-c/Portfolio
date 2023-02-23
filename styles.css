@@ -280,12 +280,9 @@ nav {
 
 /* Works/Projects */
 .works {
-  align-items: center;
   background: var(--color-background);
   display: grid;
-  flex-direction: column;
   gap: 5rem;
-  grid-template-rows: 500px, 4;
   justify-content: center;
   padding: 5rem 0;
   width: 100%;
@@ -296,11 +293,27 @@ nav {
     margin-top: 4rem;
   }
 
+  .works {
+    gap: 8.875rem;
+    padding: 8.875rem 0;
+  }
+
   .card {
-    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     height: 31rem;
     overflow: hidden;
     width: 72.25rem;
+  }
+
+  .card:nth-of-type(even) .card--image-desktop {
+    order: 2;
+  }
+
+  .card:nth-of-type(even) .card--body {
+    padding: 0 0 0 3rem;
   }
 
   .card--image {
@@ -314,7 +327,6 @@ nav {
   }
 
   .card--body {
-    margin-left: 3rem;
     padding: 0 2.875rem 0 0;
   }
 
