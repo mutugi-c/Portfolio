@@ -278,9 +278,6 @@ nav {
     margin-top: 4rem;
   }
 
-  h2 br {
-    display: none;
-  }
   .card {
     display: flex;
     width: 1156px;
@@ -288,6 +285,10 @@ nav {
 
   .card--project-btn {
     margin: 3rem 0 0;
+  }
+
+  .project-br {
+    display: none;
   }
 }
 
