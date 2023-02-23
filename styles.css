@@ -476,4 +476,18 @@ form {
     height: 52.875rem;
     width: 100%;
   }
+
+  .contacts_head {
+    max-width: 30%;
+    margin: auto;
+  }
+
+  form {
+    max-width: 20%;
+    margin: auto;
+  }
+
+  .form-button {
+    margin: auto;
+  }
 }
