@@ -412,7 +412,7 @@ nav {
 
   .about--myself {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 43% 57%;
     margin: 0;
     padding-top: 0;
   }
