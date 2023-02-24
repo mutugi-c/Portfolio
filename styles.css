@@ -509,6 +509,14 @@ nav {
   .language__list-img {
     margin-bottom: 1rem;
   }
+
+  .card--languages {
+    padding: 0;
+  }
+ 
+  .card--project-btn {
+    padding: 0;
+  }
 }
 
 /* Contacts section */
