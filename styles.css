@@ -307,14 +307,6 @@ nav {
     width: 72.25rem;
   }
 
-  .card:nth-of-type(even) .card--image-desktop {
-    order: 2;
-  }
-
-  .card:nth-of-type(even) .card--body {
-    padding: 0 0 0 3rem;
-  }
-
   .card--image {
     display: none;
   }
@@ -327,6 +319,14 @@ nav {
 
   .card--body {
     padding: 0 2.875rem 0 0;
+  }
+
+  .card:nth-of-type(even) .card--image-desktop {
+    order: 2;
+  }
+
+  .card:nth-of-type(even) .card--body {
+    padding: 0 0 0 3rem;
   }
 
   .card--project-btn {
