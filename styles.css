@@ -247,6 +247,7 @@ nav {
   font-weight: 500;
   letter-spacing: 0.03em;
   padding: 8px 16px;
+  transition: all 0.5s;
 }
 
 .btn--secondary:hover {
@@ -257,6 +258,12 @@ nav {
 .btn--secondary:focus {
   background-color: #2230d2;
   color: var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+  .btn--secondary {
+    font-size: 0.94rem;
+  }
 }
 
 /* Card */
@@ -648,5 +655,6 @@ form {
 
   .form-button {
     margin: auto;
+    white-space: nowrap;
   }
 }
