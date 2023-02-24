@@ -113,10 +113,10 @@ a {
   .headline {
     align-items: center;
     background-image:
-     url(images/header_bg/Ellipse3.png),
+    url(images/header_bg/Ellipse3.png),
      url(images/header_bg/Rectangle4.png),
-     url(images/header_bg/Rectangle7.png),
-     url(images/header_bg/Ellipse5.png),
+      url(images/header_bg/Rectangle7.png),
+       url(images/header_bg/Ellipse5.png),
      url(images/header_bg/Rectangle6.png),
      url(images/header_bg/Ellipse11.png),
      url(images/header_bg/Ellipse12.png),
