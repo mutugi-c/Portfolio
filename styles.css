@@ -218,6 +218,10 @@ nav {
 
   .nav-list-item {
     margin-left: 2rem;
+  }
+
+  .nav-list-item a {
+    color: var(--color-body);
     font-size: 0.9375rem;
     font-weight: 500;
     line-height: 1.25rem;
