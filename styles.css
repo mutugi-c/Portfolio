@@ -247,6 +247,7 @@ nav {
   font-weight: 500;
   letter-spacing: 0.03em;
   padding: 8px 16px;
+  transition: all 0.5s;
 }
 
 .btn--secondary:hover {
