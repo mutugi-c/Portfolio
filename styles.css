@@ -473,6 +473,11 @@ nav {
 }
 
 @media screen and (min-width: 728px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .about--myself-wrapper {
     padding: 8.875rem 10.375rem;
   }
@@ -502,6 +507,8 @@ nav {
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
+    font-size: 0.9375rem;
+    font-weight: 500;
     margin-right: 0.75rem;
     width: 7.625rem;
   }
