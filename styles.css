@@ -260,6 +260,12 @@ nav {
   color: var(--color-white);
 }
 
+@media screen and (min-width: 768px) {
+  .btn--secondary {
+    font-size: 0.94rem;
+  }
+}
+
 /* Card */
 .card {
   background: var(--color-white);
@@ -649,5 +655,6 @@ form {
 
   .form-button {
     margin: auto;
+    white-space: nowrap;
   }
 }
