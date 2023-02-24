@@ -230,6 +230,7 @@ nav {
   border-radius: 8px;
   border-style: none;
   color: var(--color-blue);
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   padding: 4px 12px;
 }
@@ -240,6 +241,7 @@ nav {
   border-radius: 8px;
   color: var(--color-primary);
   font-weight: 500;
+  letter-spacing: 0.03em;
   padding: 8px 16px;
 }
 
@@ -324,19 +326,22 @@ nav {
     margin-top: 4rem;
   }
 
+  h4 {
+    font-size: 1.125rem;
+  }
+
   .works {
     gap: 8.875rem;
     padding: 8.875rem 0;
   }
 
   .card {
-    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    height: 31rem;
+    margin: auto;
     overflow: hidden;
-    width: 72.25rem;
+    width: 80%;
   }
 
   .card--image {
@@ -346,15 +351,36 @@ nav {
   .card--image-desktop {
     display: block;
     padding: 1.5rem 0 1.5rem 1.5rem;
-    width: 90%;
+    width: 100%;
+  }
+
+  .card--heading {
+    margin-top: 3rem;
   }
 
   .card--body {
-    padding: 0 2.875rem 0 0;
+    padding: 0 2.875rem;
   }
+
+  .card--body-role {
+    font-size: 1.125rem;
+
+ }
+ 
+ .card--body-year {
+   font-size: 1.125rem;
+ }
+ 
+ .card--body-text {
+   font-size: 1rem;
+   line-height: 1.5rem;
+   margin-bottom: 1.75rem;
+ }
 
   .card:nth-of-type(even) .card--image-desktop {
     order: 2;
+    width: 97%;
+    padding: 1.5rem 1.375rem 1.5rem 0;
   }
 
   .card:nth-of-type(even) .card--body {
@@ -363,6 +389,10 @@ nav {
 
   .card--project-btn {
     margin: 3rem 0 0;
+  }
+
+  .btn--primary {
+   letter-spacing: 0.03em;
   }
 
   .project-br {
