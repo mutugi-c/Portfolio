@@ -369,11 +369,11 @@ nav {
   .card--body-role {
     font-size: 1.125rem;
   }
- 
+
   .card--body-year {
     font-size: 1.125rem;
   }
- 
+  
   .card--body-text {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -395,7 +395,7 @@ nav {
   }
 
   .btn--primary {
-   letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
   }
 
   .project-br {
