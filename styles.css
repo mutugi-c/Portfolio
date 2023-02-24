@@ -25,6 +25,7 @@ h2 {
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 700;
   line-height: 3.25rem;
   margin: 0;
   padding-top: 9.375rem;
@@ -38,6 +39,7 @@ h2 {
 
 h3 {
   color: var(--color-light-blue);
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -46,37 +48,21 @@ h4 {
   font-size: 0.813rem;
 }
 
-nav {
-  background-color: var(--color-white);
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1.5rem;
-  padding-top: 1rem;
-}
-
 a {
   text-decoration: none;
 }
 
 .container {
-  max-width: 375px;
+  min-width: 375px;
   background-color: var(--color-background);
 }
 
-.icon {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
-.page--logo {
-  width: 60%;
-}
-
 .headline {
-  background-image: url(images/background.png);
   background-color: var(--color-white);
+  background-image: url(images/background.png);
   background-position: 0 50px;
   background-repeat: no-repeat;
+  background-size: 100%;
   border-bottom-left-radius: 5rem;
   height: 718px;
   padding: 0 1.5rem;
@@ -97,12 +83,158 @@ a {
   fill: var(--color-icons);
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+    position: 10px 20px;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 0.813rem;
+  }
+
+  .headline-content {
+    flex: 0 1 auto;
+  }
+
+  .headline {
+    align-items: center;
+    background-image:
+      url(images/header_bg/Ellipse3.png),
+      url(images/header_bg/Rectangle4.png),
+      url(images/header_bg/Rectangle7.png),
+      url(images/header_bg/Ellipse5.png),
+      url(images/header_bg/Rectangle6.png),
+      url(images/header_bg/Ellipse11.png),
+      url(images/header_bg/Ellipse12.png),
+      url(images/header_bg/Ellipse13.png),
+      url(images/header_bg/Rectangle5.png),
+      url(images/header_bg/Ellipse4.png),
+      url(images/header_bg/Ellipse6.png),
+      url(images/header_bg/Ellipse7.png),
+      url(images/header_bg/Ellipse8.png),
+      url(images/header_bg/Ellipse14.png);
+    background-position:
+      99.4% 15.5%,
+      95% 4.5%,
+      49% 16%,
+      49% 18%,
+      2.4% 15.24%,
+      5.5% 21.86%,
+      17.63% 83.84%,
+      16.5% 87.08%,
+      49% 83.77%,
+      52.6% 80.4%,
+      81.53% 70.2%,
+      67% 16.6%,
+      26.3% 17.9%,
+      5.07% 55.79%;
+    background-size:
+      224px,
+      204px,
+      56px,
+      23px,
+      108.67px,
+      80.48px,
+      36.9px,
+      46px,
+      161.41px,
+      47px,
+      75px,
+      39px,
+      15px,
+      23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 916px;
+    padding: 0 16.25rem;
+    padding-bottom: 5rem;
+  }
+
+  .headline-text {
+    max-width: 60rem;
+  }
+
+  .headline__list {
+    margin-bottom: 0;
+  }
+
+  .br2 {
+    display: none;
+  }
+}
+
+/* Nav */
+nav {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  padding-top: 1rem;
+}
+
+.nav-list {
+  display: none;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.page--logo {
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 1.6rem 10rem;
+    align-items: center;
+  }
+
+  .page--menu {
+    display: none;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .nav-list-item {
+    margin-left: 2rem;
+  }
+
+  .nav-list-item a {
+    color: var(--color-body);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+  }
+}
+
 /* Buttons */
 .btn--primary {
   background: #ebebff;
   border-radius: 8px;
   border-style: none;
   color: var(--color-blue);
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   padding: 4px 12px;
 }
@@ -113,6 +245,7 @@ a {
   border-radius: 8px;
   color: var(--color-primary);
   font-weight: 500;
+  letter-spacing: 0.03em;
   padding: 8px 16px;
 }
 
@@ -136,6 +269,10 @@ a {
 .card--image {
   padding: 1rem;
   width: 90%;
+}
+
+.card--image-desktop {
+  display: none;
 }
 
 .card--body {
@@ -178,17 +315,95 @@ a {
   padding: 0 1rem;
 }
 
-/* Works */
+/* Works/Projects */
 .works {
-  align-items: center;
   background: var(--color-background);
   display: grid;
-  flex-direction: column;
   gap: 5rem;
-  grid-template-rows: 500px, 4;
   justify-content: center;
   padding: 5rem 0;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    margin-top: 4rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  .works {
+    gap: 8.875rem;
+    padding: 8.875rem 0;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+  }
+
+  .card--image {
+    display: none;
+  }
+
+  .card--image-desktop {
+    display: block;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    width: 100%;
+  }
+
+  .card--heading {
+    margin: 3rem 0 0;
+  }
+
+  .card--body {
+    padding: 0 2.875rem;
+  }
+
+  .card--body-role {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  .card--body-year {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  .card--body-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .card:nth-of-type(even) .card--image-desktop {
+    order: 2;
+    width: 97%;
+    padding: 1.5rem 1.375rem 1.5rem 0;
+  }
+
+  .card:nth-of-type(even) .card--body {
+    padding: 0 0 0 3rem;
+  }
+
+  .card--project-btn {
+    margin: 3rem 0 0;
+  }
+
+  .btn--primary {
+    letter-spacing: 0.03em;
+  }
+
+  .project-br {
+    display: none;
+  }
 }
 
 /* About myself */
@@ -255,6 +470,60 @@ a {
 .list__heading-pointer {
   height: 1.2rem;
   padding-right: 4rem;
+}
+
+@media screen and (min-width: 728px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .about--myself-wrapper {
+    padding: 8.875rem 10.375rem;
+  }
+
+  .about--myself {
+    display: grid;
+    grid-template-columns: 43% 57%;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .about--myself-socials {
+    margin-right: 4rem;
+  }
+
+  .headline__list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  }
+
+  .language__list {
+    display: flex;
+  }
+
+  .language__list-item {
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 0.75rem;
+    width: 7.625rem;
+  }
+
+  .language__list-img {
+    margin-bottom: 1rem;
+  }
+
+  .card--languages {
+    padding: 0;
+  }
+
+  .card--project-btn {
+    padding: 0;
+  }
 }
 
 /* Contacts section */
@@ -327,4 +596,57 @@ form {
   padding: 0.7rem;
   width: 6.75rem;
   text-align: center;
+}
+
+.form-button:hover {
+  outline: 0.8px solid var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    background-image: none;
+    background-image:
+      url(images/contacts_bg/Ellipse_3.png),
+      url(images/contacts_bg/Rectangle_4.png),
+      url(images/contacts_bg/Ellipse_13.png),
+      url(images/contacts_bg/Rectangle_7.png),
+      url(images/contacts_bg/Ellipse_5.png),
+      url(images/contacts_bg/Rectangle_6.png),
+      url(images/contacts_bg/Ellipse_11.png),
+      url(images/contacts_bg/Ellipse_12.png);
+    background-position:
+      85.9% 15.5%,
+      84.14% 9%,
+      78.4% 61.58%,
+      5.1% 40.5%,
+      5% 44%,
+      23.4% 87.59%,
+      24.5% 90.15%,
+      32.64% 13.48%;
+    background-size:
+      129px,
+      107.2px,
+      75px,
+      90px,
+      48px,
+      55px,
+      41px,
+      27px;
+    height: 55rem;
+    width: 100%;
+  }
+
+  .contacts_head {
+    max-width: 40%;
+    margin: auto;
+  }
+
+  form {
+    max-width: 30%;
+    margin: auto;
+  }
+
+  .form-button {
+    margin: auto;
+  }
 }
