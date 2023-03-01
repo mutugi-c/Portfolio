@@ -609,6 +609,10 @@ form {
   outline: 0.8px solid var(--color-white);
 }
 
+.hidden-label {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .contacts {
     background-image: none;
