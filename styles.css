@@ -75,12 +75,12 @@ a {
   padding-left: 0;
 }
 
-.headline__list_item {
+.headline__item {
   width: 3rem;
 }
 
-.headline__list_item_icon {
-  fill: var(--color-icons);
+.headline__icon {
+  filter: invert(35%) sepia(46%) saturate(260%) hue-rotate(178deg) brightness(95%) contrast(96%);
 }
 
 @media screen and (min-width: 768px) {
@@ -106,7 +106,7 @@ a {
     font-size: 0.813rem;
   }
 
-  .headline-content {
+  .headline__content {
     flex: 0 1 auto;
   }
 
@@ -165,7 +165,7 @@ a {
     padding-bottom: 5rem;
   }
 
-  .headline-text {
+  .headline__text {
     max-width: 60rem;
   }
 
@@ -187,7 +187,7 @@ nav {
   padding-top: 1rem;
 }
 
-.nav-list {
+.nav__list {
   display: none;
 }
 
@@ -196,7 +196,7 @@ nav {
   width: 1.5rem;
 }
 
-.page--logo {
+.page-logo {
   width: 60%;
 }
 
@@ -206,21 +206,21 @@ nav {
     align-items: center;
   }
 
-  .page--menu {
+  .page-menu {
     display: none;
   }
 
-  .nav-list {
+  .nav__list {
     list-style: none;
     display: flex;
     padding-left: 0;
   }
 
-  .nav-list-item {
+  .nav__list-item {
     margin-left: 2rem;
   }
 
-  .nav-list-item a {
+  .nav__list-item a {
     color: var(--color-body);
     font-size: 0.9375rem;
     font-weight: 500;
@@ -261,6 +261,10 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .btn--primary {
+    letter-spacing: 0.03em;
+  }
+
   .btn--secondary {
     font-size: 0.94rem;
   }
@@ -273,51 +277,51 @@ nav {
   width: 327px;
 }
 
-.card--image {
+.card__image {
   padding: 1rem;
   width: 90%;
 }
 
-.card--image-desktop {
+.card__image-desktop {
   display: none;
 }
 
-.card--body {
+.card__body {
   padding: 0 1rem;
 }
 
-.card--body-details {
+.card__details {
   display: flex;
 }
 
-.card--body-list {
+.card__list {
   display: flex;
   flex-direction: row;
 }
 
-.card--body-role {
+.card__role {
   color: #7a869a;
   font-weight: 600;
   font-size: 0.813rem;
   margin-right: 2rem;
 }
 
-.card--body-year {
+.card__year {
   color: #7a869a;
   font-weight: 600;
   font-size: 0.813rem;
 }
 
-.card--body-text {
+.card__text {
   margin-top: 0;
 }
 
-.card--languages {
+.card__languages {
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
 
-.card--project-btn {
+.card__btn {
   margin-bottom: 3rem;
   padding: 0 1rem;
 }
@@ -356,56 +360,52 @@ nav {
     width: 80%;
   }
 
-  .card--image {
+  .card__image {
     display: none;
   }
 
-  .card--image-desktop {
+  .card__image-desktop {
     display: block;
     padding: 1.5rem 0 1.5rem 1.5rem;
     width: 100%;
   }
 
-  .card--heading {
+  .card__heading {
     margin: 3rem 0 0;
   }
 
-  .card--body {
+  .card__body {
     padding: 0 2.875rem;
   }
 
-  .card--body-role {
+  .card__role {
     font-size: 1.125rem;
     font-weight: 400;
   }
 
-  .card--body-year {
+  .card__year {
     font-size: 1.125rem;
     font-weight: 400;
   }
 
-  .card--body-text {
+  .card__text {
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 1.75rem;
   }
 
-  .card:nth-of-type(even) .card--image-desktop {
+  .card:nth-of-type(even) .card__image-desktop {
     order: 2;
     width: 97%;
     padding: 1.5rem 1.375rem 1.5rem 0;
   }
 
-  .card:nth-of-type(even) .card--body {
+  .card:nth-of-type(even) .card__body {
     padding: 0 0 0 3rem;
   }
 
-  .card--project-btn {
+  .card__btn {
     margin: 3rem 0 0;
-  }
-
-  .btn--primary {
-    letter-spacing: 0.03em;
   }
 
   .project-br {
@@ -414,12 +414,12 @@ nav {
 }
 
 /* About myself */
-.about--myself-wrapper {
+.about-myself-wrapper {
   background-color: var(--color-white);
   padding-bottom: 5rem;
 }
 
-.about--myself {
+.about-myself {
   background-color: var(--color-white);
   border-top-right-radius: 5rem;
   margin-top: 5rem;
@@ -427,7 +427,7 @@ nav {
   padding-top: 5rem;
 }
 
-.about--myself-details {
+.about-myself__details {
   margin-top: 4rem;
 }
 
@@ -455,7 +455,7 @@ nav {
   border-bottom: 1px solid #dfe1e6;
 }
 
-.language__list-item {
+.language__item {
   align-items: center;
   background: #f7f7f9;
   display: flex;
@@ -463,7 +463,7 @@ nav {
   padding: 1rem 0;
 }
 
-.language__list-img {
+.language__img {
   margin-right: 1rem;
   padding-left: 1rem;
 }
@@ -485,18 +485,18 @@ nav {
     line-height: 1.5rem;
   }
 
-  .about--myself-wrapper {
+  .about-myself-wrapper {
     padding: 8.875rem 10.375rem;
   }
 
-  .about--myself {
+  .about-myself {
     display: grid;
     grid-template-columns: 43% 57%;
     margin: 0;
     padding-top: 0;
   }
 
-  .about--myself-socials {
+  .about-myself-socials {
     margin-right: 4rem;
   }
 
@@ -510,7 +510,7 @@ nav {
     display: flex;
   }
 
-  .language__list-item {
+  .language__item {
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -520,21 +520,21 @@ nav {
     width: 7.625rem;
   }
 
-  .language__list-img {
+  .language__img {
     margin-bottom: 1rem;
   }
 
-  .card--languages {
+  .card__languages {
     padding: 0;
   }
 
-  .card--project-btn {
+  .card__btn {
     padding: 0;
   }
 }
 
 /* Contacts section */
-.contact_container {
+.contacts-container {
   background: var(--color-white);
 }
 
@@ -548,18 +548,18 @@ nav {
   background-repeat: no-repeat;
 }
 
-.contacts_head {
+.contacts__header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 6.25rem 1.5rem 2rem 1.5rem;
 }
 
-.contacts_heading {
+.contacts__heading {
   color: var(--color-white);
 }
 
-.contacts_text {
+.contacts__text {
   color: #ebebff;
   text-align: center;
 }
@@ -570,42 +570,42 @@ form {
   margin: 0.8rem;
 }
 
-.form-input {
+.form__input {
   border: 1px solid #cfd8dc;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   padding: 1rem;
 }
 
-.form-input::placeholder {
+.form__input::placeholder {
   color: #172b4d;
   font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
-.form-input:focus {
+.form__input:focus {
   border: 1px solid #cfd8dc;
   outline: 0;
 }
 
-.form-text {
+.form--text {
   height: 10.625rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
 
-.form-text::placeholder {
+.form__text::placeholder {
   color: #b3bac5;
 }
 
-.form-button {
+.form__button {
   padding: 0.7rem;
   width: 6.75rem;
   text-align: center;
 }
 
-.form-button:hover {
+.form__button:hover {
   outline: 0.8px solid var(--color-white);
 }
 
@@ -647,7 +647,7 @@ form {
     width: 100%;
   }
 
-  .contacts_head {
+  .contacts__header {
     max-width: 40%;
     margin: auto;
   }
@@ -657,7 +657,7 @@ form {
     margin: auto;
   }
 
-  .form-button {
+  .form__button {
     margin: auto;
     white-space: nowrap;
   }

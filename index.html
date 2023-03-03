@@ -11,229 +11,237 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Chris Mutugi Portfolio </title>
+    <title>Chris Mutugi Portfolio</title>
   </head>
   <body>
-<div class="container">
+    <div class="container">
+      <!--------- Header section -------->
       <header>
+        <!-- Navbar -->
         <nav>
           <a href="#"
-            ><img class="page--logo" src="images/Logo.png" alt="Website logo containing the words, 'My Logo'"
+            ><img
+              class="page-logo"
+              src="images/Logo.png"
+              alt="Website logo containing the words, 'My Logo'"
           /></a>
           <a href="#"
-            ><img class="page--menu" src="images/menu.png" alt="The menu icon leading to the options: 'Portfolio', 'About' and 'Contacts'"
+            ><img
+              class="page-menu"
+              src="images/menu.png"
+              alt="The menu icon leading to the options: 'Portfolio', 'About' and 'Contacts'"
           /></a>
-          <ul class="nav-list">
-            <li class="nav-list-item"><a href="#">Portfolio</a></li>
-            <li class="nav-list-item"><a href="#">About</a></li>
-            <li class="nav-list-item"><a href="#">Contacts</a></li>
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="#">Portfolio</a></li>
+            <li class="nav__list-item"><a href="#">About</a></li>
+            <li class="nav__list-item"><a href="#">Contacts</a></li>
           </ul>
         </nav>
-      </header>
-      <section class="headline">
-        <div class="headline-content">
-          <h1>I'm Chris <br />Glad to see <br class="br2" />you!</h1>
-          <p class="headline-text">
-            I am a software developer! I can help you build a product, feature
-            or website. Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don't hesitate to
-            contact me.
-          </p>
-          <a href="#"><h3>LET'S CONNECT</h3></a>
-          <ul class="headline__list">
-            <li class="headline__list_item">
-              <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/"
-                ><svg
-                  class="headline__list_item_icon icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                  /></svg
-              ></a>
-            </li>
-            <li class="headline__list_item">
-              <a href="https://github.com/mutugi-c"
-                ><svg
-                  class="headline__list_item_icon icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 496 512"
-                >
-                  <path
-                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                  /></svg
-              ></a>
-            </li>
-            <li class="headline__list_item">
-              <a href="https://twitter.com/chris__mutugi"
-                ><svg
-                  class="headline__list_item_icon icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                  /></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
+        <!-- Headline section -->
+        <section class="headline">
+          <div class="headline__content">
+            <h1>I'm Chris <br />Glad to see <br class="br2" />you!</h1>
+            <p class="headline__text">
+              I am a software developer! I can help you build a product, feature
+              or website. Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don't
+              hesitate to contact me.
+            </p>
+            <a href="#"><h3>LET'S CONNECT</h3></a>
+            <ul class="headline__list">
+              <li class="headline__list-item">
+                <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/"
+                  ><img
+                    class="headline__icon icon"
+                    src="images/linkedin.svg"
+                    alt="A Linkedin icon"
+                /></a>
+              </li>
+              <li class="headline__list-item">
+                <a href="https://github.com/mutugi-c">
+                  <img
+                    class="headline__icon icon"
+                    src="images/github.svg"
+                    alt="A Github icon"
+                /></a>
+              </li>
+              <li class="headline__list-item">
+                <a href="https://twitter.com/chris__mutugi"
+                  ><img
+                    class="headline__icon icon"
+                    src="images/twitter.svg"
+                    alt="A Twitter icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </header>
+
+      <!--------- Projects section --------->
       <section class="works">
+        <!--card  -->
         <div class="card">
           <img
-            class="card--image"
+            class="card__image"
             src="images/project1.png"
             alt="Image for the tonic project indicating 'From high school dropout to product developer at Facebook and Lyft: Tanner Christensen'"
           />
           <img
-            class="card--image-desktop"
+            class="card__image-desktop"
             src="images/project1_desktop.png"
             alt="Desktop version image for Nature project indicating 'Catchy look inspiring bionic forms $35'"
           />
-          <div class="card--body">
-            <h2 class="card--heading">Nature</h2>
-            <div class="card--body-details">
+          <div class="card__body">
+            <h2 class="card__heading">Nature</h2>
+            <div class="card__details">
               <h4>CANOPY</h4>
               <div>
-                <ul class="card--body-list">
-                  <li class="card--body-role">Back End Dev</li>
-                  <li class="card--body-year">2015</li>
+                <ul class="card__list">
+                  <li class="card__role">Back End Dev</li>
+                  <li class="card__year">2015</li>
                 </ul>
               </div>
             </div>
-            <p class="card--body-text">
+            <p class="card__text">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required
             </p>
-            <div class="card--languages">
+            <div class="card__languages">
               <button class="btn--primary">html</button>
               <button class="btn--primary">css</button>
               <button class="btn--primary">javascript</button>
             </div>
-            <div class="card--project-btn">
+            <div class="card__btn">
               <a href="#" class="btn--secondary">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--card  -->
         <div class="card">
           <img
-            class="card--image"
+            class="card__image"
             src="images/project2.png"
             alt="Multi-Post Stories project image showing a website with the main heading reading 'Availability' and a profile picture on the right"
           />
           <img
-            class="card--image-desktop"
+            class="card__image-desktop"
             src="images/project2_desktop.png"
             alt="Multi-Post Stories project image for desktop version with the heading 'Professional art printing'"
           />
-          <div class="card--body">
-            <h2 class="card--heading">Multi-Post <br class="project-br" />Stories</h2>
-            <div class="card--body-details">
+          <div class="card__body">
+            <h2 class="card__heading">
+              Multi-Post <br class="project-br" />Stories
+            </h2>
+            <div class="card__details">
               <h4>CANOPY</h4>
               <div>
-                <ul class="card--body-list">
-                  <li class="card--body-role">Back End Dev</li>
-                  <li class="card--body-year">2015</li>
+                <ul class="card__list">
+                  <li class="card__role">Back End Dev</li>
+                  <li class="card__year">2015</li>
                 </ul>
               </div>
             </div>
-            <p class="card--body-text">
+            <p class="card__text">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required
             </p>
-            <div class="card--languages">
+            <div class="card__languages">
               <button class="btn--primary">html</button>
               <button class="btn--primary">css</button>
               <button class="btn--primary">javascript</button>
             </div>
-            <div class="card--project-btn">
+            <div class="card__btn">
               <a href="#" class="btn--secondary">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--card  -->
         <div class="card">
           <img
-            class="card--image"
+            class="card__image"
             src="images/project3.png"
             alt="Tonic project image with the heading 'GYMFIT', and a lady doing yoga stretching"
           />
           <img
-            class="card--image-desktop"
+            class="card__image-desktop"
             src="images/project3_desktop.png"
             alt="Desktop image version for the Tonic project indicating 'From high school dropout to product developer at Facebook and Lyft: Tanner Christensen'"
           />
-          <div class="card--body">
-            <h2 class="card--heading">Tonic</h2>
-            <div class="card--body-details">
+          <div class="card__body">
+            <h2 class="card__heading">Tonic</h2>
+            <div class="card__details">
               <h4>CANOPY</h4>
               <div>
-                <ul class="card--body-list">
-                  <li class="card--body-role">Back End Dev</li>
-                  <li class="card--body-year">2015</li>
+                <ul class="card__list">
+                  <li class="card__role">Back End Dev</li>
+                  <li class="card__year">2015</li>
                 </ul>
               </div>
             </div>
-            <p class="card--body-text">
+            <p class="card__text">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required
             </p>
-            <div class="card--languages">
+            <div class="card__languages">
               <button class="btn--primary">html</button>
               <button class="btn--primary">css</button>
               <button class="btn--primary">javascript</button>
             </div>
-            <div class="card--project-btn">
+            <div class="card__btn">
               <a href="#" class="btn--secondary">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--card  -->
         <div class="card">
           <img
-            class="card--image"
+            class="card__image"
             src="images/project4.png"
             alt="Multi-Post Stories project image with the heading 'Professional art printing'e"
           />
           <img
-            class="card--image-desktop"
+            class="card__image-desktop"
             src="images/project4_desktop.png"
             alt="Multi-Post Stories project image for desktop version with the heading 'Professional art printing'"
           />
-          <div class="card--body">
-            <h2 class="card--heading">Multi-Post <br class="project-br" />Stories</h2>
-            <div class="card--body-details">
+          <div class="card__body">
+            <h2 class="card__heading">
+              Multi-Post <br class="project-br" />Stories
+            </h2>
+            <div class="card__details">
               <h4>CANOPY</h4>
               <div>
-                <ul class="card--body-list">
-                  <li class="card--body-role">Back End Dev</li>
-                  <li class="card--body-year">2015</li>
+                <ul class="card__list">
+                  <li class="card__role">Back End Dev</li>
+                  <li class="card__year">2015</li>
                 </ul>
               </div>
             </div>
-            <p class="card--body-text">
+            <p class="card__text">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required
             </p>
-            <div class="card--languages">
+            <div class="card__languages">
               <button class="btn--primary">html</button>
               <button class="btn--primary">css</button>
               <button class="btn--primary">javascript</button>
             </div>
-            <div class="card--project-btn">
+            <div class="card__btn">
               <a href="#" class="btn--secondary">See Project</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="about--myself-wrapper">
-        <div class="about--myself">
-          <div class="about--myself-socials">
+      <!--------- About Myself section -------->
+      <section class="about-myself-wrapper">
+        <div class="about-myself">
+          <div class="about-myself__socials">
             <h2>
               About <br />
               Myself
@@ -246,46 +254,36 @@
             </p>
             <a href="#"><h3>LET'S CONNECT</h3></a>
             <ul class="headline__list">
-              <li class="headline__list_item">
-                <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/"
-                  ><svg
-                    class="headline__list_item_icon icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                    /></svg
-                ></a>
+              <li class="headline__item">
+                <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/">
+                  <img
+                    class="headline__icon icon"
+                    src="images/linkedin.svg"
+                    alt="A Linkedin icon"
+                  />
+                </a>
               </li>
-              <li class="headline__list_item">
-                <a href="https://github.com/mutugi-c"
-                  ><svg
-                    class="headline__list_item_icon icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 496 512"
-                  >
-                    <path
-                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                    /></svg
-                ></a>
+              <li class="headline__item">
+                <a href="https://github.com/mutugi-c">
+                  <img
+                    class="headline__icon icon"
+                    src="images/github.svg"
+                    alt="A github icon"
+                  />
+                </a>
               </li>
-              <li class="headline__list_item">
-                <a href="https://twitter.com/chris__mutugi"
-                  ><svg
-                    class="headline__list_item_icon icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                    /></svg
-                ></a>
+              <li class="headline__item">
+                <a href="https://twitter.com/chris__mutugi">
+                  <img
+                    class="headline__icon icon"
+                    src="images/twitter.svg"
+                    alt="A Twitter icon"
+                /></a>
               </li>
             </ul>
             <a href="#" class="btn--secondary">Get my resume</a>
           </div>
-          <div class="about--myself-details">
+          <div class="about-myself__details">
             <ul class="list__heading">
               <li class="list__heading-item">
                 <span>Languages</span
@@ -297,24 +295,24 @@
               </li>
             </ul>
             <ul class="language__list">
-              <li class="language__list-item">
+              <li class="language__item">
                 <img
-                  class="language__list-img"
+                  class="language__img"
                   src="images/JS.png"
                   alt="JavaScript logo"
                 /><span>Javascript</span>
               </li>
-              <li class="language__list-item">
+              <li class="language__item">
                 <img
-                  class="language__list-img"
+                  class="language__img"
                   src="images/HTML.png"
                   alt="HTML logo"
                 />
                 <span>HTML</span>
               </li>
-              <li class="language__list-item">
+              <li class="language__item">
                 <img
-                  class="language__list-img"
+                  class="language__img"
                   src="images/CSS.png"
                   alt="CSS logo"
                 />
@@ -343,11 +341,12 @@
         </div>
       </section>
 
-      <section class="contact_container">
+      <!--------- Contacts section -------->
+      <section class="contacts-container">
         <div class="contacts">
-          <div class="contacts_head">
-            <h2 class="contacts_heading">Contact me</h2>
-            <p class="contacts_text">
+          <div class="contacts__header">
+            <h2 class="contacts__heading">Contact me</h2>
+            <p class="contacts__text">
               If you have an application you are interested in developing, a
               feature that you need built or a project that needs coding. I’d
               love to help with it
@@ -356,7 +355,7 @@
           <form action="https://formspree.io/f/mrgjjgzn" method="post">
             <label for="full_name" class="hidden-label"></label>
             <input
-              class="form-input"
+              class="form__input"
               id="full_name"
               type="text"
               name="user_name"
@@ -366,7 +365,7 @@
             />
             <label for="user_email" class="hidden-label"></label>
             <input
-              class="form-input"
+              class="form__input"
               id="user_email"
               type="email"
               name="user_email"
@@ -375,13 +374,13 @@
             />
             <label for="user_message" class="hidden-label"></label>
             <textarea
-              class="form-input form-text"
+              class="form__input form--text"
               id="user_message"
               name="message"
               maxlength="500"
               placeholder="Write your message here"
             ></textarea>
-            <button class="btn--secondary form-button" type="submit">
+            <button class="form__button btn--secondary" type="submit">
               Get in touch
             </button>
           </form>
