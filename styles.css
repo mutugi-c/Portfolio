@@ -80,7 +80,7 @@ a {
 }
 
 .headline__list_item_icon {
-  fill: var(--color-icons);
+  filter: invert(35%) sepia(46%) saturate(260%) hue-rotate(178deg) brightness(95%) contrast(96%);
 }
 
 @media screen and (min-width: 768px) {
