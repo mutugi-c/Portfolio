@@ -6,3 +6,7 @@ hamburgerIcon.addEventListener("click", () => {
     pageMenu.classList.toggle("active");
 });
 
+pageMenu.addEventListener("click", () => {
+    hamburgerIcon.classList.remove("active");
+    pageMenu.classList.remove("active");
+});
