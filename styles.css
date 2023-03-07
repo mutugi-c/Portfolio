@@ -71,12 +71,9 @@ a {
 .headline__list {
   display: flex;
   list-style: none;
+  gap: 2rem;
   margin: 2rem 0;
   padding-left: 0;
-}
-
-.headline__item {
-  width: 3rem;
 }
 
 .headline__icon {
@@ -479,7 +476,7 @@ nav {
   padding-right: 4rem;
 }
 
-@media screen and (min-width: 728px) {
+@media screen and (min-width: 768px) {
   p {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -500,9 +497,7 @@ nav {
     margin-right: 4rem;
   }
 
-  .headline__list {
-    display: flex;
-    flex-direction: row;
+  .about-myself--list {
     margin-bottom: 3rem;
   }
 
