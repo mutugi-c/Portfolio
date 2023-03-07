@@ -9,6 +9,10 @@
   --color-background: #e5e5e5;
 }
 
+* {
+  margin: 0;
+}
+
 body {
   color: var(--color-body);
   font-family: "Poppins", sans-serif;
@@ -264,13 +268,13 @@ nav {
 
   .nav__list {
     align-items: start;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(8px);
     background-color: #6070ff;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
     left: -100%;
-    opacity: 90%;
+    opacity: 95%;
     padding: 106px 0 450px;
     position: fixed;
     top: 0;
