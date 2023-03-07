@@ -18,69 +18,72 @@
       <!--------- Header section -------->
       <header>
         <!-- Navbar -->
-        <nav>
-          <a href="#"
-            ><img
-              class="page-logo"
-              src="images/Logo.png"
-              alt="Website logo containing the words, 'My Logo'"
-          /></a>
-          <a href="#"
-            ><img
-              class="page-menu"
-              src="images/menu.png"
-              alt="The menu icon leading to the options: 'Portfolio', 'About' and 'Contacts'"
-          /></a>
-          <ul class="nav__list">
-            <li class="nav__list-item"><a href="#">Portfolio</a></li>
-            <li class="nav__list-item"><a href="#">About</a></li>
-            <li class="nav__list-item"><a href="#">Contacts</a></li>
-          </ul>
-        </nav>
 
-        <!-- Headline section -->
-        <section class="headline">
-          <div class="headline__content">
-            <h1>I'm Chris <br />Glad to see <br class="br2" />you!</h1>
-            <p class="headline__text">
-              I am a software developer! I can help you build a product, feature
-              or website. Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don't
-              hesitate to contact me.
-            </p>
-            <a href="#"><h3>LET'S CONNECT</h3></a>
-            <ul class="headline__list">
-              <li class="headline__list-item">
-                <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/"
-                  ><img
-                    class="headline__icon icon"
-                    src="images/linkedin.svg"
-                    alt="A Linkedin icon"
-                /></a>
-              </li>
-              <li class="headline__list-item">
-                <a href="https://github.com/mutugi-c">
-                  <img
-                    class="headline__icon icon"
-                    src="images/github.svg"
-                    alt="A Github icon"
-                /></a>
-              </li>
-              <li class="headline__list-item">
-                <a href="https://twitter.com/chris__mutugi"
-                  ><img
-                    class="headline__icon icon"
-                    src="images/twitter.svg"
-                    alt="A Twitter icon"
-                /></a>
-              </li>
-            </ul>
+        <nav>
+          <a class="nav__brand" href="#">Chris Mutugi</a>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-myself-wrapper" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts-container" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+
+          <div class="hamburger-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-        </section>
+        </nav>
       </header>
 
+      <!-- Headline section -->
+      <section class="headline">
+        <div class="headline__content">
+          <h1>I'm Chris <br />Glad to see <br class="br2" />you!</h1>
+          <p class="headline__text">
+            I am a software developer! I can help you build a product, feature
+            or website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
+          </p>
+          <a href="#"><h3>LET'S CONNECT</h3></a>
+          <ul class="headline__list">
+            <li class="headline__list-item">
+              <a href="https://www.linkedin.com/in/chris-mutugi-46594b123/"
+                ><img
+                  class="headline__icon icon"
+                  src="images/linkedin.svg"
+                  alt="A Linkedin icon"
+              /></a>
+            </li>
+            <li class="headline__list-item">
+              <a href="https://github.com/mutugi-c">
+                <img
+                  class="headline__icon icon"
+                  src="images/github.svg"
+                  alt="A Github icon"
+              /></a>
+            </li>
+            <li class="headline__list-item">
+              <a href="https://twitter.com/chris__mutugi"
+                ><img
+                  class="headline__icon icon"
+                  src="images/twitter.svg"
+                  alt="A Twitter icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <!--------- Projects section --------->
-      <section class="works">
+      <section id="works">
         <!--card  -->
         <div class="card">
           <img
@@ -239,7 +242,7 @@
       </section>
 
       <!--------- About Myself section -------->
-      <section class="about-myself-wrapper">
+      <section id="about-myself-wrapper">
         <div class="about-myself">
           <div class="about-myself__socials">
             <h2>
@@ -342,7 +345,7 @@
       </section>
 
       <!--------- Contacts section -------->
-      <section class="contacts-container">
+      <section id="contacts-container">
         <div class="contacts">
           <div class="contacts__header">
             <h2 class="contacts__heading">Contact me</h2>
@@ -387,5 +390,7 @@
         </div>
       </section>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

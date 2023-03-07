@@ -176,16 +176,47 @@ a {
 }
 
 /* Nav */
+header {
+  align-items: center;
+  background-color: var(--color-white);
+  height: 50px;
+  padding: 0 20px;
+}
+
 nav {
+  align-items: center;
   background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
-  padding: 0 1.5rem;
-  padding-top: 1rem;
+  min-height: 70px;
+  padding: 0 2rem;
+}
+
+.nav__brand {
+  color: var(--color-blue);
+  font-size: 1.125rem;
+  font-weight: 700;
+  width: 100%;
 }
 
 .nav__list {
-  display: none;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.nav__item {
+  margin-left: 2rem;
+}
+
+.nav__link {
+  color: var(--color-body);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-decoration: none;
 }
 
 .icon {
@@ -197,31 +228,69 @@ nav {
   width: 60%;
 }
 
-@media screen and (min-width: 768px) {
-  nav {
-    padding: 1.6rem 10rem;
-    align-items: center;
-  }
+.hamburger-icon {
+  display: none;
+}
 
-  .page-menu {
+.bar {
+  background-color: var(--color-blue);
+  display: block;
+  height: 2px;
+  margin: 5px auto;
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list {
     display: none;
   }
 
+  .hamburger-icon {
+    display: block;
+  }
+
+  .hamburger-icon.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-icon.active .bar:nth-child(1) {
+    background-color: var(--color-white);
+    transform: translateY(0.7rem) rotate(45deg);
+    position: fixed;
+  }
+
+  .hamburger-icon.active .bar:nth-child(3) {
+    background-color: var(--color-white);
+    transform: translateY(-0.1rem) rotate(-45deg);
+    position: fixed;
+  }
+
   .nav__list {
-    list-style: none;
+    align-items: start;
+    background-color: #6070FF;
     display: flex;
-    padding-left: 0;
+    flex-direction: column;
+    gap: 2.5rem;
+    left: -100%;
+    opacity: 90%;
+    padding: 106px 0 450px;
+    position: fixed;
+    top: 0;
+    transition: 0.4s;
+    width: 100%;
   }
 
-  .nav__list-item {
-    margin-left: 2rem;
+  .nav__link {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+    text-align: left;
   }
 
-  .nav__list-item a {
-    color: var(--color-body);
-    font-size: 0.9375rem;
-    font-weight: 500;
-    line-height: 1.25rem;
+  .nav__list.active {
+    left: 0;
+    margin-top: 0;
   }
 }
 
@@ -324,7 +393,7 @@ nav {
 }
 
 /* Works/Projects */
-.works {
+#works {
   background: var(--color-background);
   display: grid;
   gap: 5rem;
@@ -343,7 +412,7 @@ nav {
     font-weight: 500;
   }
 
-  .works {
+  #works {
     gap: 8.875rem;
     padding: 8.875rem 0;
   }
@@ -411,7 +480,7 @@ nav {
 }
 
 /* About myself */
-.about-myself-wrapper {
+#about-myself-wrapper {
   background-color: var(--color-white);
   padding-bottom: 5rem;
 }
@@ -529,7 +598,7 @@ nav {
 }
 
 /* Contacts section */
-.contacts-container {
+#contacts-container {
   background: var(--color-white);
 }
 
