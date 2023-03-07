@@ -1,6 +1,9 @@
 const projectInfo = [
     {
         name: "Geocoding app",
+        author: "MUTUGI CHRIS",
+        stack: "Front-End",
+        year: 2022,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laborum tempora voluptatum esse blanditiis, eligendi harum nulla reiciendis excepturi quod.",
         featuredImage: "./images/img1.jpg",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -10,6 +13,9 @@ const projectInfo = [
 
     {
         name: "Geocoding app",
+        author: "MUTUGI CHRIS",
+        stack: "Front-End",
+        year: 2022,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laborum tempora voluptatum esse blanditiis, eligendi harum nulla reiciendis excepturi quod.",
         featuredImage: "./images/img3.jpg",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -19,6 +25,9 @@ const projectInfo = [
 
     {
         name: "Geocoding app",
+        author: "MUTUGI CHRIS",
+        stack: "Front-End",
+        year: 2022,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laborum tempora voluptatum esse blanditiis, eligendi harum nulla reiciendis excepturi quod.",
         featuredImage: "./images/img2.jpg",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -28,6 +37,9 @@ const projectInfo = [
 
     {
         name: "Geocoding app",
+        author: "MUTUGI CHRIS",
+        stack: "Front-End",
+        year: 2022,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laborum tempora voluptatum esse blanditiis, eligendi harum nulla reiciendis excepturi quod.",
         featuredImage: "./images/img4.jpg",
         technologies: ["HTML", "CSS", "JavaScript"],
