@@ -252,16 +252,19 @@ nav {
     background-color: var(--color-white);
     transform: translateY(0.7rem) rotate(45deg);
     position: fixed;
+    z-index: 4;
   }
 
   .hamburger-icon.active .bar:nth-child(3) {
     background-color: var(--color-white);
     transform: translateY(-0.1rem) rotate(-45deg);
     position: fixed;
+    z-index: 4;
   }
 
   .nav__list {
     align-items: start;
+    backdrop-filter: blur(7px);
     background-color: #6070ff;
     display: flex;
     flex-direction: column;
@@ -273,6 +276,7 @@ nav {
     top: 0;
     transition: 0.4s;
     width: 100%;
+    z-index: 2;
   }
 
   .nav__link {
@@ -286,7 +290,6 @@ nav {
   .nav__list.active {
     left: 0;
     margin-top: 0;
-    z-index: 999;
   }
 }
 
