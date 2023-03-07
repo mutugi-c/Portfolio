@@ -89,7 +89,6 @@ a {
   h1 {
     font-size: 3rem;
     line-height: 3.75rem;
-    position: 10px 20px;
     padding: 0;
   }
 
@@ -241,10 +240,6 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .nav__list {
-    display: none;
-  }
-
   .hamburger-icon {
     display: block;
   }
@@ -267,7 +262,7 @@ nav {
 
   .nav__list {
     align-items: start;
-    background-color: #6070FF;
+    background-color: #6070ff;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
