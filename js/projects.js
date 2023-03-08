@@ -1,7 +1,7 @@
-import projectInfo from "./projectInfo.js";
+import projectInfo from './projectInfo.js';
 
 document.querySelector('#works').innerHTML = projectInfo.map(
-    (info) => `
+  (info) => `
         <!--card  -->
         <div class="card">
           <img
@@ -38,19 +38,19 @@ document.querySelector('#works').innerHTML = projectInfo.map(
             </div>
           </div>
         </div>
-        `
+        `,
 )
-.join('');
+  .join('');
 
-for (let i = 0; i <= projectInfo.length; i ++) {
-    if (i % 2 === 1) {
-      document.querySelectorAll('.card')[i].classList.add('order');
-    }
+for (let i = 0; i <= projectInfo.length; i += 1) {
+  if (i % 2 === 1) {
+    document.querySelectorAll('.card')[i].classList.add('order');
   }
+}
 
   //   Popup
-document.querySelector("#popups").innerHTML = projectInfo.map(
-    (info) => `
+document.querySelector('#popups').innerHTML = projectInfo.map(
+  (info) => `
     <div class="popup-container">
       <div class="popup">
         <div class="card__body popup--body">
@@ -103,7 +103,7 @@ document.querySelector("#popups").innerHTML = projectInfo.map(
         </div>
       </div>
     </div>
-    `
+    `,
 ).join('');
 
 // Event listeners for a popup on button click
@@ -112,8 +112,8 @@ const popups = Array.from(document.querySelectorAll('.popup-container'));
 
 const popupButtonevent = projectButtons.map((btn, i) => [btn, popups[i]]);
 popupButtonevent.forEach((group) => {
-    group[0].addEventListener('click', () => {
-    group[1].style.display = 'block';
+  group[0].addEventListener('click', () => {
+  group[1].style.display = 'block';
   });
 });
 
