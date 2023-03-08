@@ -116,3 +116,12 @@ popupButtonevent.forEach((group) => {
     group[1].style.display = 'block';
   });
 });
+
+// Add an event listener to close a popup
+document.querySelectorAll('.popup__exit').forEach((exit) => {
+  exit.addEventListener('click', () => {
+    document.querySelectorAll('.popup-container').forEach((popup) => {
+      popup.style.display = 'none';
+    });
+  });
+});
