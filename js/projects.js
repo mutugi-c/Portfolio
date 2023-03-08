@@ -42,12 +42,6 @@ document.querySelector('#works').innerHTML = projectInfo.map(
 )
   .join('');
 
-for (let i = 0; i <= projectInfo.length; i += 1) {
-  if (i % 2 === 1) {
-    document.querySelectorAll('.card')[i].classList.add('order');
-  }
-}
-
 //   Popup
 document.querySelector('#popups').innerHTML = projectInfo.map(
   (info) => `
