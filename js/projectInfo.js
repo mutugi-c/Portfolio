@@ -1,6 +1,6 @@
 const projectInfo = [
     {
-        name: "Geocoding app",
+        name: "e-learning",
         author: "MUTUGI CHRIS",
         stack: "Front-End",
         year: 2022,
@@ -12,7 +12,7 @@ const projectInfo = [
     },
 
     {
-        name: "Geocoding app",
+        name: "Statistics app",
         author: "MUTUGI CHRIS",
         stack: "Front-End",
         year: 2022,
@@ -24,7 +24,7 @@ const projectInfo = [
     },
 
     {
-        name: "Geocoding app",
+        name: "Products app",
         author: "MUTUGI CHRIS",
         stack: "Front-End",
         year: 2022,
@@ -36,7 +36,7 @@ const projectInfo = [
     },
 
     {
-        name: "Geocoding app",
+        name: "QR code app",
         author: "MUTUGI CHRIS",
         stack: "Front-End",
         year: 2022,
