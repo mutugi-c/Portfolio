@@ -48,7 +48,7 @@ for (let i = 0; i <= projectInfo.length; i += 1) {
   }
 }
 
-  //   Popup
+//   Popup
 document.querySelector('#popups').innerHTML = projectInfo.map(
   (info) => `
     <div class="popup-container">
@@ -113,7 +113,7 @@ const popups = Array.from(document.querySelectorAll('.popup-container'));
 const popupButtonevent = projectButtons.map((btn, i) => [btn, popups[i]]);
 popupButtonevent.forEach((group) => {
   group[0].addEventListener('click', () => {
-  group[1].style.display = 'block';
+    group[1].style.display = 'block';
   });
 });
 
