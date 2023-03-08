@@ -41,3 +41,9 @@ document.querySelector('#works').innerHTML = projectInfo.map(
         `
 )
 .join('');
+
+for (let i = 0; i <= projectInfo.length; i ++) {
+    if (i % 2 === 1) {
+      document.querySelectorAll('.card')[i].classList.add('order');
+    }
+  }
