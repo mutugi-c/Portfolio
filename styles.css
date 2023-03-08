@@ -801,8 +801,6 @@ form {
 }
 
 @media screen and (min-width: 768px) {
-  .popup-container {}
-
   .popup {
     margin-bottom: 7rem;
     padding: 1.5rem;
@@ -831,39 +829,36 @@ form {
     margin-top: 0;
   }
 
-  .tags-buttons {}
-}
+  @media screen and (min-width: 930px) {
+    .popup--info {
+      grid-template-columns: 50% 50%;
+    }
 
-@media screen and (min-width: 930px) {
-  .popup--info {
-    grid-template-columns: 50% 50%;
+    .popup--buttons {
+      width: 70%;
+    }
+
+    .popup--btn {
+      padding: 0.5rem 1rem;
+    }
   }
 
-  .popup--buttons {
-    width: 70%;
+  @media screen and (min-width: 1080px) {
+    .popup--info {
+      grid-template-columns: 60% 40%;
+    }
+
+    .popup--buttons {
+      width: 70%;
+    }
   }
 
-  .popup--btn {
-    padding: 0.5rem 1rem;
-  }
-}
+  @media screen and (min-width: 1440px) {
+    .popup--info {
+      grid-template-columns: 70% 30%;
+    }
 
-@media screen and (min-width: 1080px) {
-  .popup--info {
-    grid-template-columns: 60% 40%;
-  }
-
-  .popup--buttons {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .popup--info {
-    grid-template-columns: 70% 30%;
-  }
-
-  .popup--buttons {
-    width: 50%;
-  }
-}
+    .popup--buttons {
+      width: 50%;
+    }
+  }}
