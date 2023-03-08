@@ -807,7 +807,7 @@ form {
   }
 
   .popup--heading {
-    margin: 0;
+    margin: 0 0 1rem;
   }
 
   .popup--body {
