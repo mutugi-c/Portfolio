@@ -105,3 +105,14 @@ document.querySelector("#popups").innerHTML = projectInfo.map(
     </div>
     `
 ).join('');
+
+// Event listeners for a popup on button click
+const projectButtons = Array.from(document.querySelectorAll('.card__btn'));
+const popups = Array.from(document.querySelectorAll('.popup-container'));
+
+const popupButtonevent = projectButtons.map((btn, i) => [btn, popups[i]]);
+popupButtonevent.forEach((group) => {
+    group[0].addEventListener('click', () => {
+    group[1].style.display = 'block';
+  });
+});
