@@ -4,7 +4,15 @@ const emailInput = document.querySelector('#user_email');
 
 // Listen for the form submit event
 form.addEventListener('submit', function(event) {
-  // Get the email value and convert it to lowercase
   const emailValue = emailInput.value.toLowerCase();
-}
-);
+
+  if (emailValue !== emailInput.value) {
+    event.preventDefault();
+
+    const errorElement = document.createElement('p');
+    errorElement.textContent = 'Please enter your email address in lowercase';
+    errorElement.style.color = 'lightred';
+    errorElement.classList.add('form__error');
+    form.appendChild(errorElement);
+  }
+});
