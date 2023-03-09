@@ -17,4 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
         formData.email = parsedData.email;
         formData.message = parsedData.message;
     }
-});
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+
+    // Store form data to local storage when a field changes
+    const storeFormData = () => {
+        formData.name = nameInput.value;
+        formData.email = emailInput.value;
+        formData.message = messageInput.value;
+
+        localStorage.setItem('formData', JSON.stringify(formData));
+    }
+
+    nameInput.addEventListener('input', storeFormData);
+    emailInput.addEventListener('input', storeFormData);
+    messageInput.addEventListener('input', storeFormData);
+})
