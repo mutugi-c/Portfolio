@@ -3,7 +3,7 @@ const form = document.querySelector('form');
 const emailInput = document.querySelector('#user_email');
 
 // Listen for the form submit event
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', (event) => {
   const emailValue = emailInput.value.toLowerCase();
 
   if (emailValue !== emailInput.value) {
