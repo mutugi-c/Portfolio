@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const formData = {
     name: '',
     email: '',
-    message: ''
+    message: '',
   };
 
   const nameInput = document.getElementById('full_name');
@@ -28,9 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.message = messageInput.value;
 
     localStorage.setItem('formData', JSON.stringify(formData));
-  }
+  };
 
   nameInput.addEventListener('input', storeFormData);
   emailInput.addEventListener('input', storeFormData);
   messageInput.addEventListener('input', storeFormData);
-})
+});
