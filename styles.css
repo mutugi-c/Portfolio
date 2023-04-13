@@ -45,6 +45,11 @@ h3 {
   color: var(--color-light-blue);
   font-size: 1rem;
   font-weight: 500;
+  transition: color 0.3s;
+}
+
+h3:hover {
+  color: var(--color-primary);
 }
 
 h4 {
@@ -224,11 +229,22 @@ nav {
   font-weight: 500;
   line-height: 1.25rem;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--color-blue);
 }
 
 .icon {
   height: 1.5rem;
   width: 1.5rem;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  height: 1.2rem;
+  filter: invert(70%) sepia(46%) saturate(260%) hue-rotate(178deg) brightness(95%) contrast(96%);
 }
 
 .page-logo {
@@ -307,7 +323,7 @@ nav {
   border-radius: 8px;
   border-style: none;
   color: var(--color-blue);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding: 4px 12px;
 }
@@ -487,11 +503,6 @@ nav {
 }
 
 /* About myself */
-#about-myself-wrapper {
-  background-color: var(--color-white);
-  padding-bottom: 5rem;
-}
-
 .about-myself {
   background-color: var(--color-white);
   border-top-right-radius: 5rem;
@@ -558,15 +569,12 @@ nav {
     line-height: 1.5rem;
   }
 
-  .about-myself-wrapper {
-    padding: 8.875rem 10.375rem;
-  }
-
   .about-myself {
     display: grid;
+    gap: 2.25rem;
     grid-template-columns: 43% 57%;
     margin: 0;
-    padding-top: 0;
+    padding: 10.375rem 11.375rem 10.375rem 9rem;
   }
 
   .about-myself-socials {
