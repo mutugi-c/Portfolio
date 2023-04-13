@@ -244,8 +244,7 @@ nav {
 
 .icon:hover {
   height: 1.2rem;
-  filter: invert(70%) sepia(46%) saturate(260%) hue-rotate(178deg)
-    brightness(95%) contrast(96%);
+  filter: invert(70%) sepia(46%) saturate(260%) hue-rotate(178deg) brightness(95%) contrast(96%);
 }
 
 .page-logo {
