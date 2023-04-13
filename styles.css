@@ -45,6 +45,11 @@ h3 {
   color: var(--color-light-blue);
   font-size: 1rem;
   font-weight: 500;
+  transition: color 0.3s;
+}
+
+h3:hover {
+  color: var(--color-primary);
 }
 
 h4 {
@@ -193,11 +198,23 @@ nav {
   font-weight: 500;
   line-height: 1.25rem;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--color-blue);
 }
 
 .icon {
   height: 1.5rem;
   width: 1.5rem;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  height: 1.2rem;
+  filter: invert(70%) sepia(46%) saturate(260%) hue-rotate(178deg)
+    brightness(95%) contrast(96%);
 }
 
 .page-logo {
