@@ -81,7 +81,8 @@ a {
 }
 
 .headline__icon {
-  filter: invert(35%) sepia(46%) saturate(260%) hue-rotate(178deg) brightness(95%) contrast(96%);
+  filter: invert(35%) sepia(46%) saturate(260%) hue-rotate(178deg)
+    brightness(95%) contrast(96%);
 }
 
 .headline__text {
@@ -116,51 +117,19 @@ a {
 
   .headline {
     align-items: center;
-    background-image:
-      url(images/header_bg/Ellipse3.png),
-      url(images/header_bg/Rectangle4.png),
-      url(images/header_bg/Rectangle7.png),
-      url(images/header_bg/Ellipse5.png),
-      url(images/header_bg/Rectangle6.png),
-      url(images/header_bg/Ellipse11.png),
-      url(images/header_bg/Ellipse12.png),
-      url(images/header_bg/Ellipse13.png),
-      url(images/header_bg/Rectangle5.png),
-      url(images/header_bg/Ellipse4.png),
-      url(images/header_bg/Ellipse6.png),
-      url(images/header_bg/Ellipse7.png),
-      url(images/header_bg/Ellipse8.png),
+    background-image: url(images/header_bg/Ellipse3.png),
+      url(images/header_bg/Rectangle4.png), url(images/header_bg/Rectangle7.png),
+      url(images/header_bg/Ellipse5.png), url(images/header_bg/Rectangle6.png),
+      url(images/header_bg/Ellipse11.png), url(images/header_bg/Ellipse12.png),
+      url(images/header_bg/Ellipse13.png), url(images/header_bg/Rectangle5.png),
+      url(images/header_bg/Ellipse4.png), url(images/header_bg/Ellipse6.png),
+      url(images/header_bg/Ellipse7.png), url(images/header_bg/Ellipse8.png),
       url(images/header_bg/Ellipse14.png);
-    background-position:
-      99.4% 15.5%,
-      95% 4.5%,
-      49% 16%,
-      49% 18%,
-      2.4% 15.24%,
-      5.5% 21.86%,
-      17.63% 83.84%,
-      16.5% 87.08%,
-      49% 83.77%,
-      52.6% 80.4%,
-      81.53% 70.2%,
-      67% 16.6%,
-      26.3% 17.9%,
-      5.07% 55.79%;
-    background-size:
-      224px,
-      204px,
-      56px,
-      23px,
-      108.67px,
-      80.48px,
-      36.9px,
-      46px,
-      161.41px,
-      47px,
-      75px,
-      39px,
-      15px,
-      23px;
+    background-position: 99.4% 15.5%, 95% 4.5%, 49% 16%, 49% 18%, 2.4% 15.24%,
+      5.5% 21.86%, 17.63% 83.84%, 16.5% 87.08%, 49% 83.77%, 52.6% 80.4%,
+      81.53% 70.2%, 67% 16.6%, 26.3% 17.9%, 5.07% 55.79%;
+    background-size: 224px, 204px, 56px, 23px, 108.67px, 80.48px, 36.9px, 46px,
+      161.41px, 47px, 75px, 39px, 15px, 23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +276,7 @@ nav {
   border-radius: 8px;
   border-style: none;
   color: var(--color-blue);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding: 4px 12px;
 }
@@ -487,11 +456,6 @@ nav {
 }
 
 /* About myself */
-#about-myself-wrapper {
-  background-color: var(--color-white);
-  padding-bottom: 5rem;
-}
-
 .about-myself {
   background-color: var(--color-white);
   border-top-right-radius: 5rem;
@@ -558,15 +522,12 @@ nav {
     line-height: 1.5rem;
   }
 
-  .about-myself-wrapper {
-    padding: 8.875rem 10.375rem;
-  }
-
   .about-myself {
     display: grid;
+    gap: 2.25rem;
     grid-template-columns: 43% 57%;
     margin: 0;
-    padding-top: 0;
+    padding: 10.375rem 11.375rem 10.375rem 9rem;
   }
 
   .about-myself-socials {
@@ -687,8 +648,7 @@ form {
 @media screen and (min-width: 768px) {
   .contacts {
     background-image: none;
-    background-image:
-      url(images/contacts_bg/Ellipse_3.png),
+    background-image: url(images/contacts_bg/Ellipse_3.png),
       url(images/contacts_bg/Rectangle_4.png),
       url(images/contacts_bg/Ellipse_13.png),
       url(images/contacts_bg/Rectangle_7.png),
@@ -696,24 +656,9 @@ form {
       url(images/contacts_bg/Rectangle_6.png),
       url(images/contacts_bg/Ellipse_11.png),
       url(images/contacts_bg/Ellipse_12.png);
-    background-position:
-      85.9% 15.5%,
-      84.14% 9%,
-      78.4% 61.58%,
-      5.1% 40.5%,
-      5% 44%,
-      23.4% 87.59%,
-      24.5% 90.15%,
-      32.64% 13.48%;
-    background-size:
-      129px,
-      107.2px,
-      75px,
-      90px,
-      48px,
-      55px,
-      41px,
-      27px;
+    background-position: 85.9% 15.5%, 84.14% 9%, 78.4% 61.58%, 5.1% 40.5%,
+      5% 44%, 23.4% 87.59%, 24.5% 90.15%, 32.64% 13.48%;
+    background-size: 129px, 107.2px, 75px, 90px, 48px, 55px, 41px, 27px;
     height: 55rem;
     width: 100%;
   }
