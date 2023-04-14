@@ -10,6 +10,7 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -192,7 +193,6 @@ header {
   align-items: center;
   background-color: var(--color-white);
   height: 50px;
-  padding: 0 20px;
 }
 
 nav {
@@ -200,8 +200,10 @@ nav {
   background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
-  min-height: 70px;
+  height: 70px;
+  position: fixed;
   padding: 0 2rem;
+  width: 100%;
 }
 
 .nav__brand {
