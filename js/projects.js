@@ -11,7 +11,7 @@ document.querySelector('#works').innerHTML = projectInfo.map(
           />
           <img
             class="card__image-desktop"
-            src="images/project1_desktop.png"
+            src="images/${info.featuredImage}"
             alt="Desktop version image for Nature project indicating 'Catchy look inspiring bionic forms $35'"
           />
           <div class="card__body">
