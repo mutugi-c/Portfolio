@@ -363,8 +363,11 @@ nav {
 
 /* Card */
 .card {
+  align-items: center;
   background: var(--color-white);
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin: 0 auto;
 }
@@ -466,7 +469,7 @@ nav {
   }
 
   .card__body {
-    padding: 0 2.875rem;
+    padding: 0 2.875rem 1.5rem;
   }
 
   .card__role {
@@ -489,10 +492,6 @@ nav {
     order: 2;
     width: 97%;
     padding: 1.5rem 1.375rem 1.5rem 0;
-  }
-
-  .card:nth-of-type(even) .card__body {
-    padding: 0 0 0 3rem;
   }
 
   .card__btn-wrapper {
@@ -766,7 +765,7 @@ form {
   padding: 1.5rem;
   position: relative;
   top: 60px;
-  width: 80%;
+  width: 70%;
 }
 
 .popup--header {
@@ -775,9 +774,9 @@ form {
 }
 
 .popup--img {
-  height: 100%;
-  margin: 1.25rem 0 0.75rem 0;
-  width: 100%;
+  height: 10%;
+  margin: 1.25rem auto 0;
+  width: 60%;
   padding: 0;
 }
 
@@ -813,11 +812,11 @@ form {
 @media screen and (min-width: 768px) {
   .popup {
     margin-bottom: 7rem;
-    padding: 1.5rem;
+    overflow: hidden;
   }
 
   .popup--heading {
-    margin: 0 0 1rem;
+    margin: 0 0 0.7rem;
   }
 
   .popup--body {
@@ -826,13 +825,17 @@ form {
 
   .popup--img {
     margin: 0 auto;
-    padding: 2.25rem 0 3.75rem;
+    padding: 0.7rem 0;
   }
 
   .popup--info {
     display: grid;
     gap: 2rem;
     grid-template-columns: 50% 50%;
+  }
+
+  .popup__text {
+    margin: 0.5rem 0;
   }
 
   .popup--tags {

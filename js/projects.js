@@ -25,7 +25,7 @@ document.querySelector('#works').innerHTML = projectInfo.map(
                 </ul>
               </div>
             </div>
-            <p class="card__text">
+            <p class="card__text popup__text">
              ${info.description}
             </p>
             <div class="card__languages">
