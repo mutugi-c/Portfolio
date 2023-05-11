@@ -466,7 +466,7 @@ nav {
   }
 
   .card__body {
-    padding: 0 2.875rem;
+    padding: 0 2.875rem 1.5rem;;
   }
 
   .card__role {
@@ -489,10 +489,6 @@ nav {
     order: 2;
     width: 97%;
     padding: 1.5rem 1.375rem 1.5rem 0;
-  }
-
-  .card:nth-of-type(even) .card__body {
-    padding: 0 0 0 3rem;
   }
 
   .card__btn-wrapper {
