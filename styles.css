@@ -363,8 +363,11 @@ nav {
 
 /* Card */
 .card {
+  align-items: center;
   background: var(--color-white);
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin: 0 auto;
 }
