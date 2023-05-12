@@ -65,12 +65,12 @@ document.querySelector('#popups').innerHTML = projectInfo.map(
 
           <img
             class="card__image popup--img"
-            src=${info.featuredImage}
+            src="images/${info.featuredImage}"
             alt="Tonic project image with the heading 'GYMFIT', and a lady doing yoga stretching"
           />
           <img
             class="card__image-desktop popup--img"
-            src=${info.featuredImage}
+            src="images/${info.featuredImage}"
             alt="Desktop image version for the Tonic project indicating 'From high school dropout to product developer at Facebook and Lyft: Tanner Christensen'"
           />
 
