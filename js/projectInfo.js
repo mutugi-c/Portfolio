@@ -32,7 +32,7 @@ const projectInfo = [
     featuredImage: '../images/Geospatial_world_forum.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveVersion: 'https://landing-page-skilled-elearning.netlify.app/',
-    source: 'https://github.com/mutugi-c/Skilled-elearning-landing-page',
+    source: 'https://mutugi-c.github.io/Geospatial-World-Forum/',
   },
 
   {
@@ -44,7 +44,7 @@ const projectInfo = [
     featuredImage: '../images/To_do_list.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveVersion: 'https://landing-page-skilled-elearning.netlify.app/',
-    source: 'https://github.com/mutugi-c/Skilled-elearning-landing-page',
+    source: 'https://mutugi-c.github.io/To_do_List/dist/',
   },
 ];
 
