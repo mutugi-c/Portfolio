@@ -31,7 +31,7 @@ const projectInfo = [
     description: 'Geospatial world forum is a personalised pseudo website (There is an original one) meant to build an online website for a conference.',
     featuredImage: '../images/Geospatial_world_forum.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://landing-page-skilled-elearning.netlify.app/',
+    liveVersion: 'https://mutugi-c.github.io/Geospatial-World-Forum/',
     source: 'https://mutugi-c.github.io/Geospatial-World-Forum/',
   },
 
@@ -43,7 +43,7 @@ const projectInfo = [
     description: '"To-do list" is a tool built with ES6 and Webpack, that helps one organize their day. It simply lists the things that one needs to do and allows you to mark them as complete.',
     featuredImage: '../images/To_do_list.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveVersion: 'https://landing-page-skilled-elearning.netlify.app/',
+    liveVersion: 'https://mutugi-c.github.io/To_do_List/dist/',
     source: 'https://mutugi-c.github.io/To_do_List/dist/',
   },
 ];
